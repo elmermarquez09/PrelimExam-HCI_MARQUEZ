@@ -1,0 +1,114 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(27, 27, 27);
+}
+
+.button {
+    background-color: #080808; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 20px;
+  }
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 350px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card:hover{
+    background-color: rgb(255, 153, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.card-image{
+    background-color: aqua;
+    height: 320px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+.car-1 {
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7d6fa84e-8e14-4a44-b505-428ca4a62f53/nikecourt-heritage86-logo-tennis-hat-QQz7pd.png);
+}
+
+.car-2 {
+    background-image: url(https://res.cloudinary.com/forallpromos/image/fetch/f_auto/https://www.4allpromos.com/sites/default/files/imagecache/720x720/images/products/2093/313-1035_KHK.jpg);
+}
+
+.car-3 {
+    background-image: url(https://www.theangler.com.au/assets/full/61543.jpg?20200710032032);
+}
+
+.car-4 {
+    background-image: url(https://5.imimg.com/data5/BD/AP/MY-46186639/sports-cap-250x250.png);
+}
+
+.car-5 {
+    background-image: url(https://www.efootwear.eu/media/catalog/product/cache/image/650x650/8/0/8052467832009_1_.jpg);
+}
+
+.car-6 {
+    background-image: url(https://assets.adidas.com/images/w_600,f_auto,q_auto/5514119266e34be8ad71adf20135d2f9_9366/Go-To_Hat_White_H64668.jpg);
+}
+
+.car-7 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0101/1145/1195/products/CP11-F.jpg?v=1634794494);
+}
+
+.car-8 {
+    background-image: url(http://cdn.shopify.com/s/files/1/0088/6675/8707/products/Viacom_MTV_EmbroideredBucketHat_MTV-L-BH_Black_grande.jpg?v=1572635854);
+}
+
+.car-9 {
+    background-image: url(http://cdn.shopify.com/s/files/1/0560/7024/2468/products/bucket-hat-i-big-accessories-bx003-navy-front-62477d8f283c9_grande.jpg?v=1648852373);
+}
+
+.car-10 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0087/6193/3920/products/1321088_BERR_1_grande.jpg?v=1648828195);
+}
+
+.car-11 {
+    background-image: url(https://www.elesaleather.com/wp-content/uploads/2020/09/02Z11.3-600x600.jpg);
+}
+
+.car-12 {
+    background-image: url(https://www.elesaleather.com/wp-content/uploads/2020/10/02Z4.3-600x600.jpg);
+}
+
+.car-13 {
+    background-image: url(https://i.ebayimg.com/images/g/7NgAAOSw2rNfM02j/s-l400.jpg);
+}
